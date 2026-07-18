@@ -1,0 +1,3214 @@
+{
+  "apps": [
+    {
+      "id": "b770be7d-038f-4667-a5af-02aff0cf040e",
+      "app_name": "Salesforce",
+      "category": "CRM",
+      "summary": "The world's #1 customer relationship management (CRM) platform.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": true,
+      "buildability": "High",
+      "agent_readiness_score": 95,
+      "confidence": 0.84,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.salesforce.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.salesforce.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.salesforce.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "8b3ffa18-21e9-4c58-97e8-599ff29e1d8f",
+      "app_name": "CRMApp_2",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 85,
+      "confidence": 0.8,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_2.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_2.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_2.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "5aa7e963-2693-4640-8197-3ea0a353f0bc",
+      "app_name": "CRMApp_3",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.82,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_3.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_3.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_3.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "82f11f33-ebf0-4a17-867a-24421b16250a",
+      "app_name": "CRMApp_4",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.7,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_4.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_4.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_4.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "4b6c7a86-f11a-4879-a7ec-6e8c2de53fb9",
+      "app_name": "CRMApp_5",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": false,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 30,
+      "confidence": 0.93,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_5.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_5.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "017d7ac6-0d17-43b4-936c-cf79c7c25a24",
+      "app_name": "CRMApp_6",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.95,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_6.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_6.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_6.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "1a8219ef-b518-41fe-98f6-5cf64af08524",
+      "app_name": "CRMApp_7",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.87,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_7.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_7.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_7.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "9c2d1d57-2f1a-41d4-974b-a92a0aeee410",
+      "app_name": "CRMApp_8",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": false,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.9,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_8.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_8.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_8.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "c8c09fde-9764-4fa8-8764-ee3ec20bfb00",
+      "app_name": "CRMApp_9",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": false,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 10,
+      "confidence": 0.94,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_9.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_9.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "0542f77e-4337-4b8d-8e25-577b53c03bf0",
+      "app_name": "CRMApp_10",
+      "category": "CRM",
+      "summary": "Enterprise crm solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.89,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.crmapp_10.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.crmapp_10.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.crmapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "0063e7b6-9f45-4f97-a15b-ef18fb827b3d",
+      "app_name": "Zendesk",
+      "category": "Helpdesk",
+      "summary": "Customer service software and support ticketing system.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.91,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.zendesk.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.zendesk.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.zendesk.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "3b42a430-ee9b-4d74-a12c-f4d009f5ce89",
+      "app_name": "HelpdeskApp_2",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.84,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_2.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_2.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_2.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "ab184e4b-2956-4903-91b4-a45c1f56ce12",
+      "app_name": "HelpdeskApp_3",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.91,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_3.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_3.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_3.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "bf4689e7-11a7-4f06-bdda-d4ef9e1c10d5",
+      "app_name": "HelpdeskApp_4",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.98,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_4.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_4.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_4.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "1a012d2d-c6fe-445b-b432-e833e32c5ec7",
+      "app_name": "HelpdeskApp_5",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": false,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 30,
+      "confidence": 0.76,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_5.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_5.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "db28c887-394c-4ea2-8ca4-0b89dcf0cd18",
+      "app_name": "HelpdeskApp_6",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.7,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_6.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_6.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_6.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "4fc3bcd8-5972-44ce-b1e5-27e0b7fb317c",
+      "app_name": "HelpdeskApp_7",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.71,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_7.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_7.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_7.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "2dd464f2-5897-40b5-942f-e01731f220bb",
+      "app_name": "HelpdeskApp_8",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.83,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_8.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_8.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_8.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "22d4f4af-a91c-4d43-8a0f-630952cd4121",
+      "app_name": "HelpdeskApp_9",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.74,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_9.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_9.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "22d549f5-11c9-40b4-a99c-16d96ad8da86",
+      "app_name": "HelpdeskApp_10",
+      "category": "Helpdesk",
+      "summary": "Enterprise helpdesk solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.7,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.helpdeskapp_10.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.helpdeskapp_10.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.helpdeskapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "4ede70b1-9e23-45e1-a926-c19d3cdf8415",
+      "app_name": "Slack",
+      "category": "Communication",
+      "summary": "Channel-based messaging platform for enterprise collaboration.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 85,
+      "confidence": 0.95,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.slack.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.slack.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.slack.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "01699060-16be-4336-af25-74ddde7937da",
+      "app_name": "CommunicationApp_2",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.87,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_2.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_2.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_2.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "bd11962c-1391-41ef-809d-d3ae4d7b93e3",
+      "app_name": "CommunicationApp_3",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.95,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_3.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_3.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_3.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "45c1acdd-4bab-49bf-acf1-98065b5ace9d",
+      "app_name": "CommunicationApp_4",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 75,
+      "confidence": 0.71,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_4.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_4.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_4.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "3064aed1-0624-4728-b55b-74210e8a4fcb",
+      "app_name": "CommunicationApp_5",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.72,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_5.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_5.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "b836fbc4-b652-40e6-b984-b501f02a4274",
+      "app_name": "CommunicationApp_6",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": false,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.75,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_6.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_6.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_6.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "a9c0f624-f8a3-4e7c-a156-d759ff76a0b4",
+      "app_name": "CommunicationApp_7",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": false,
+      "api_surface": "Webhooks only",
+      "mcp": true,
+      "buildability": "Low",
+      "agent_readiness_score": 25,
+      "confidence": 0.87,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_7.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_7.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_7.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "c9a4676c-a02e-4f3b-a899-1a91a4e55968",
+      "app_name": "CommunicationApp_8",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.83,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_8.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_8.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_8.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "71b6b1a4-e632-47dd-815d-91d68f20c4b5",
+      "app_name": "CommunicationApp_9",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": false,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 60,
+      "confidence": 0.92,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_9.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_9.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "503e2d7a-2b3e-47cd-81c3-368b8b805693",
+      "app_name": "CommunicationApp_10",
+      "category": "Communication",
+      "summary": "Enterprise communication solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.96,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.communicationapp_10.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.communicationapp_10.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.communicationapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "7fcbd438-1220-4751-a909-27cdb480fba0",
+      "app_name": "HubSpot",
+      "category": "Marketing",
+      "summary": "Inbound marketing, sales, and service software.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.98,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.hubspot.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.hubspot.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.hubspot.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "2502156e-657b-4018-a49d-7127123e1d42",
+      "app_name": "MarketingApp_2",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": true,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.8,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_2.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_2.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_2.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "4721f03b-bc1b-4ee0-b031-26c7722dfadd",
+      "app_name": "MarketingApp_3",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": false,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 40,
+      "confidence": 0.95,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_3.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_3.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_3.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "2ca1d4d8-7459-4168-87a9-d469358eaf29",
+      "app_name": "MarketingApp_4",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.89,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_4.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_4.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_4.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "f64c642b-5b54-4bd5-90e3-4f715f14444e",
+      "app_name": "MarketingApp_5",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 45,
+      "confidence": 0.83,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_5.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_5.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "705c4d79-0fed-4b1c-af1a-036fc9ce8585",
+      "app_name": "MarketingApp_6",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 60,
+      "confidence": 0.95,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_6.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_6.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_6.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "bfbed552-3a36-4e5a-a246-b50ee470ccbd",
+      "app_name": "MarketingApp_7",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.72,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_7.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_7.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_7.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "c5808e7a-c47c-473d-8e19-715eeeb6eec6",
+      "app_name": "MarketingApp_8",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.71,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_8.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_8.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_8.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "359586e1-af52-4e0f-98fd-d450c623df1a",
+      "app_name": "MarketingApp_9",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.95,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_9.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_9.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "d954ac28-11b7-4d5b-af6d-92fc1a3fe17b",
+      "app_name": "MarketingApp_10",
+      "category": "Marketing",
+      "summary": "Enterprise marketing solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.97,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.marketingapp_10.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.marketingapp_10.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.marketingapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "688c28ec-a5ba-4631-9944-81654377a232",
+      "app_name": "EcommerceApp_1",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": false,
+      "api_surface": "gRPC",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.96,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_1.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_1.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_1.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "5318fed5-a830-40ee-a6af-f8eb8a728314",
+      "app_name": "EcommerceApp_2",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": false,
+      "api_surface": "gRPC",
+      "mcp": true,
+      "buildability": "Low",
+      "agent_readiness_score": 45,
+      "confidence": 0.73,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_2.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_2.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_2.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "c679b185-a106-42bb-84ec-740e12238981",
+      "app_name": "EcommerceApp_3",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.92,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_3.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_3.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_3.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "1c342de0-4701-41da-8bc7-d1af54fd9bf1",
+      "app_name": "EcommerceApp_4",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": false,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.85,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_4.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_4.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_4.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "c5458abb-a7bf-4f85-b2f9-6d614fcef264",
+      "app_name": "EcommerceApp_5",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.8,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_5.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_5.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "de2786a5-f9c4-442e-93b6-d57534658660",
+      "app_name": "EcommerceApp_6",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.99,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_6.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_6.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_6.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "8e7cb920-e1b9-46eb-a90c-4beec8ec8e4e",
+      "app_name": "EcommerceApp_7",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": false,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 15,
+      "confidence": 0.74,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_7.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_7.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_7.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "8390fd9a-bde5-4462-8a9a-fad760c87ed7",
+      "app_name": "EcommerceApp_8",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.89,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_8.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_8.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_8.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "e5bcc74d-5f93-4349-ae38-a08cf071c1bd",
+      "app_name": "EcommerceApp_9",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 40,
+      "confidence": 0.73,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_9.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_9.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "8d432f4e-322b-4023-adcb-15f809bad721",
+      "app_name": "EcommerceApp_10",
+      "category": "Ecommerce",
+      "summary": "Enterprise ecommerce solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 60,
+      "confidence": 0.89,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.ecommerceapp_10.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.ecommerceapp_10.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.ecommerceapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "0fbb0612-e678-4214-9d24-589e01f76614",
+      "app_name": "Airtable",
+      "category": "Data",
+      "summary": "Low-code platform for building collaborative apps.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 85,
+      "confidence": 0.79,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.airtable.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.airtable.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.airtable.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "2b83e732-9871-426b-9724-44c6b6cca2ab",
+      "app_name": "DataApp_2",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.8,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_2.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_2.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_2.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "1b6fa49e-d67c-4239-95af-bd583a1b163a",
+      "app_name": "DataApp_3",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.98,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_3.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_3.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_3.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "7ef33304-7d3d-4424-b9dc-66d7820190b2",
+      "app_name": "DataApp_4",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": false,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.78,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_4.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_4.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_4.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "ae7bdb41-b9e9-424a-9217-491f72caa3d2",
+      "app_name": "DataApp_5",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.79,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_5.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_5.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "d8495049-fe86-43b7-9171-05411765f83a",
+      "app_name": "DataApp_6",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": false,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 45,
+      "confidence": 0.72,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_6.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_6.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_6.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "4b472147-126b-42d2-8798-fcb066c908be",
+      "app_name": "DataApp_7",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 60,
+      "confidence": 0.9,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_7.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_7.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_7.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "cf35651b-c697-4a7d-aaaf-bb51eb46a35c",
+      "app_name": "DataApp_8",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.72,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_8.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_8.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_8.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "1c854270-f181-4a12-b0ac-b60e523a2b41",
+      "app_name": "DataApp_9",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.8,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_9.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_9.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "15cd9149-09f1-4eab-adfd-648576799270",
+      "app_name": "DataApp_10",
+      "category": "Data",
+      "summary": "Enterprise data solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.79,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dataapp_10.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dataapp_10.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dataapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "156efde4-ae41-4692-b51f-ebd9e0c972e5",
+      "app_name": "GitHub",
+      "category": "Developer",
+      "summary": "The leading developer platform for version control and CI/CD.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 85,
+      "confidence": 0.84,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.github.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.github.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.github.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "5cb1c89b-cca5-45a0-9ec1-037138a3a0d0",
+      "app_name": "DeveloperApp_2",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 75,
+      "confidence": 0.77,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_2.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_2.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_2.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "6d93c944-b5a8-4a12-bc6f-cd806d09c244",
+      "app_name": "DeveloperApp_3",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": true,
+      "buildability": "High",
+      "agent_readiness_score": 90,
+      "confidence": 0.85,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_3.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_3.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_3.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "9ce42586-5317-48b0-a6b8-6b5a34233a6b",
+      "app_name": "DeveloperApp_4",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.75,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_4.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_4.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_4.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "bfb39d5d-32fb-4935-93fa-70abcdea2c06",
+      "app_name": "DeveloperApp_5",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": false,
+      "api_surface": "gRPC",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.82,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_5.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_5.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_5.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "bd88f1b7-65e3-4ff7-9b9d-3b838de978c2",
+      "app_name": "DeveloperApp_6",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.93,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_6.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_6.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_6.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "ae2c13be-9f87-4f13-a359-a62ef052f5a5",
+      "app_name": "DeveloperApp_7",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.98,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_7.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_7.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_7.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "fbdb20c0-b86e-429f-a664-bd2b85918108",
+      "app_name": "DeveloperApp_8",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 45,
+      "confidence": 0.95,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_8.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_8.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_8.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "6637dedc-022b-44bb-8d95-84052e248269",
+      "app_name": "DeveloperApp_9",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": false,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 40,
+      "confidence": 0.75,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_9.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_9.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "277e68cb-bf3b-4914-a628-97623e4e5e4d",
+      "app_name": "DeveloperApp_10",
+      "category": "Developer",
+      "summary": "Enterprise developer solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": false,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.97,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.developerapp_10.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.developerapp_10.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.developerapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "80d5453d-8ae3-4db2-bab2-9118abdd4b43",
+      "app_name": "Notion",
+      "category": "Productivity",
+      "summary": "Connected workspace for wiki, docs, and projects.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 85,
+      "confidence": 0.76,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.notion.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.notion.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.notion.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "565c5454-55f4-4d45-95b8-a990d795a2eb",
+      "app_name": "Linear",
+      "category": "Productivity",
+      "summary": "Purpose-built tool for planning and building products.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": true,
+      "buildability": "High",
+      "agent_readiness_score": 100,
+      "confidence": 0.99,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.linear.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.linear.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.linear.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "1f3315b3-f665-4ec2-9aa4-e87cefe6aa0c",
+      "app_name": "ProductivityApp_3",
+      "category": "Productivity",
+      "summary": "Enterprise productivity solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "High",
+      "agent_readiness_score": 80,
+      "confidence": 0.79,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.productivityapp_3.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.productivityapp_3.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.productivityapp_3.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "03bfc77d-1e04-4456-bfd4-37f72aa1b475",
+      "app_name": "ProductivityApp_4",
+      "category": "Productivity",
+      "summary": "Enterprise productivity solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 65,
+      "confidence": 0.79,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.productivityapp_4.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.productivityapp_4.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.productivityapp_4.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "9563c9fd-f622-4527-aa2f-0e43f069ddf9",
+      "app_name": "ProductivityApp_5",
+      "category": "Productivity",
+      "summary": "Enterprise productivity solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 40,
+      "confidence": 0.76,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.productivityapp_5.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.productivityapp_5.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.productivityapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "56c10cbf-0499-4dee-a030-0faae6aed679",
+      "app_name": "ProductivityApp_6",
+      "category": "Productivity",
+      "summary": "Enterprise productivity solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.84,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.productivityapp_6.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.productivityapp_6.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.productivityapp_6.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "b5564199-85e3-4b29-a8d6-b9dbc200e2db",
+      "app_name": "ProductivityApp_7",
+      "category": "Productivity",
+      "summary": "Enterprise productivity solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.89,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.productivityapp_7.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.productivityapp_7.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.productivityapp_7.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "7aa82c37-cae0-4a58-ab7d-beaa392fb920",
+      "app_name": "ProductivityApp_8",
+      "category": "Productivity",
+      "summary": "Enterprise productivity solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.73,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.productivityapp_8.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.productivityapp_8.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.productivityapp_8.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "f544a1c6-a091-47da-b950-a7dcbb26ee47",
+      "app_name": "ProductivityApp_9",
+      "category": "Productivity",
+      "summary": "Enterprise productivity solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": false,
+      "api_surface": "gRPC",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.93,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.productivityapp_9.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.productivityapp_9.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.productivityapp_9.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "f2941dd9-4092-4b21-9a7d-e3e0790075fc",
+      "app_name": "ProductivityApp_10",
+      "category": "Productivity",
+      "summary": "Enterprise productivity solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.72,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.productivityapp_10.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.productivityapp_10.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.productivityapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "05675f59-a9a5-457d-80c8-80955b6118d8",
+      "app_name": "Stripe",
+      "category": "Finance",
+      "summary": "Financial infrastructure platform for the internet.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": true,
+      "buildability": "High",
+      "agent_readiness_score": 100,
+      "confidence": 0.98,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.stripe.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.stripe.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.stripe.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "978d46e9-6e2f-492e-ad1e-ba423165776b",
+      "app_name": "PitchBook",
+      "category": "Finance",
+      "summary": "Financial data provider covering global venture capital and private equity.",
+      "auth": "Basic Auth",
+      "self_serve": false,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.93,
+      "blockers": "Partner gated",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.pitchbook.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.pitchbook.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.pitchbook.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "04615006-d06f-4950-a7e1-ebd2d7fc226e",
+      "app_name": "DealCloud",
+      "category": "Finance",
+      "summary": "Deal management and CRM for financial services.",
+      "auth": "Basic Auth",
+      "self_serve": false,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 15,
+      "confidence": 0.93,
+      "blockers": "Partner gated",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.dealcloud.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.dealcloud.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.dealcloud.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "5996b11b-d9d6-40bf-8f71-aa60d2155507",
+      "app_name": "FinanceApp_4",
+      "category": "Finance",
+      "summary": "Enterprise finance solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": false,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.82,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.financeapp_4.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.financeapp_4.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.financeapp_4.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "7123f1d6-5a8c-4043-ae91-634bab5bbebd",
+      "app_name": "FinanceApp_5",
+      "category": "Finance",
+      "summary": "Enterprise finance solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 60,
+      "confidence": 0.89,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.financeapp_5.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.financeapp_5.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.financeapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "62657f01-9658-4797-a22e-9d17b6ce950b",
+      "app_name": "FinanceApp_6",
+      "category": "Finance",
+      "summary": "Enterprise finance solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 45,
+      "confidence": 0.94,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.financeapp_6.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.financeapp_6.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.financeapp_6.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "8f4ca91a-01da-4944-b454-8fc0d8a135a7",
+      "app_name": "FinanceApp_7",
+      "category": "Finance",
+      "summary": "Enterprise finance solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "REST",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 75,
+      "confidence": 0.87,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.financeapp_7.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.financeapp_7.com/docs",
+          "snippet": "Supports REST"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.financeapp_7.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "fec87286-0617-4943-87c6-d4cfbc63dc76",
+      "app_name": "FinanceApp_8",
+      "category": "Finance",
+      "summary": "Enterprise finance solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": true,
+      "buildability": "High",
+      "agent_readiness_score": 85,
+      "confidence": 0.71,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.financeapp_8.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.financeapp_8.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.financeapp_8.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "ec737a87-274b-4d55-907a-3fddf41c50f8",
+      "app_name": "FinanceApp_9",
+      "category": "Finance",
+      "summary": "Enterprise finance solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.71,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.financeapp_9.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.financeapp_9.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.financeapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "62f9aab2-5c95-4d09-aa7e-2576592e824f",
+      "app_name": "FinanceApp_10",
+      "category": "Finance",
+      "summary": "Enterprise finance solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 45,
+      "confidence": 0.87,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.financeapp_10.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.financeapp_10.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.financeapp_10.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "c995ae01-a153-4951-8fdd-3ca0e3d0d240",
+      "app_name": "AIApp_1",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.9,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_1.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_1.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_1.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    },
+    {
+      "id": "5012364b-ac9d-4ede-a211-7ba5a5c2f7ee",
+      "app_name": "AIApp_2",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.88,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_2.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_2.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_2.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "1ddeb61f-66a9-4d22-bbde-da0503ae103f",
+      "app_name": "AIApp_3",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": false,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.98,
+      "blockers": "None (Docs are perfect)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_3.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_3.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_3.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "3a307242-fd9f-42c7-bd52-0e36e0855767",
+      "app_name": "AIApp_4",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "gRPC",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 60,
+      "confidence": 0.93,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_4.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_4.com/docs",
+          "snippet": "Supports gRPC"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_4.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "22698227-61e8-46de-897c-7506d921323d",
+      "app_name": "AIApp_5",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "Hybrid",
+      "self_serve": true,
+      "api_surface": "GraphQL",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.79,
+      "blockers": "Enterprise Only API",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_5.com/docs",
+          "snippet": "Supports Hybrid"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_5.com/docs",
+          "snippet": "Supports GraphQL"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_5.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "77f612e8-6770-463a-a054-270eac3802fa",
+      "app_name": "AIApp_6",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 50,
+      "confidence": 0.86,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_6.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_6.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_6.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "5306438e-d69d-4b48-8db3-b867a793cf44",
+      "app_name": "AIApp_7",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "Basic Auth",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 30,
+      "confidence": 0.97,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_7.com/docs",
+          "snippet": "Supports Basic Auth"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_7.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_7.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "52a8fffe-5fa7-47cd-8a73-6032b96aa340",
+      "app_name": "AIApp_8",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "OAuth2",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Medium",
+      "agent_readiness_score": 55,
+      "confidence": 0.9,
+      "blockers": "Gated Docs (Requires Login)",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_8.com/docs",
+          "snippet": "Supports OAuth2"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_8.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_8.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "83d9370e-58b0-4a1a-a614-abaab4a676a5",
+      "app_name": "AIApp_9",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "None",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": false,
+      "buildability": "Low",
+      "agent_readiness_score": 35,
+      "confidence": 0.86,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_9.com/docs",
+          "snippet": "Supports None"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_9.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_9.com/docs",
+          "snippet": "Supports False"
+        }
+      ]
+    },
+    {
+      "id": "9e2f644d-a57b-45af-8a9d-abcc57f0280a",
+      "app_name": "AIApp_10",
+      "category": "AI",
+      "summary": "Enterprise ai solution with extensive third-party integration capabilities.",
+      "auth": "API Key",
+      "self_serve": true,
+      "api_surface": "Webhooks only",
+      "mcp": true,
+      "buildability": "Medium",
+      "agent_readiness_score": 70,
+      "confidence": 0.81,
+      "blockers": "Complex OAuth Flow",
+      "evidence": [
+        {
+          "field": "auth",
+          "url": "https://developer.aiapp_10.com/docs",
+          "snippet": "Supports API Key"
+        },
+        {
+          "field": "api_surface",
+          "url": "https://developer.aiapp_10.com/docs",
+          "snippet": "Supports Webhooks only"
+        },
+        {
+          "field": "mcp",
+          "url": "https://developer.aiapp_10.com/docs",
+          "snippet": "Supports True"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "category": "Quick Wins",
+      "title": "GitHub, Slack, Notion, Linear, Airtable",
+      "reason": "{\"matter\": \"These platforms command massive market share and require near-zero operational overhead due to excellent docs.\", \"impact\": \"Immediate, high-reliability integrations for end users.\", \"action\": \"Assign Engineering Pod A to integrate these apps in the current sprint.\", \"evidence\": \"100% OAuth2 availability, 98% Readiness Score average.\"}"
+    },
+    {
+      "category": "Medium Complexity",
+      "title": "Salesforce, Zendesk, HubSpot",
+      "reason": "{\"matter\": \"These represent mission-critical enterprise workflows, but their API surfaces are extremely broad and sometimes rate-limited.\", \"impact\": \"High customer demand fulfillment, but requires ongoing maintenance.\", \"action\": \"Allocate Q3 resources for scoping custom webhook handlers.\", \"evidence\": \"Readiness scores avg 75, blocked by complex auth flows.\"}"
+    },
+    {
+      "category": "Strategic Outreach",
+      "title": "PitchBook, DealCloud, FinTech Tools",
+      "reason": "{\"matter\": \"APIs are entirely partner-gated, meaning agents cannot independently build against them.\", \"impact\": \"Blocks autonomous integration until business agreements are signed.\", \"action\": \"Hand off to Partnerships Team to negotiate API access agreements.\", \"evidence\": \"100% failure rate in autonomous sandbox account creation.\"}"
+    }
+  ],
+  "global_metrics": {
+    "initial_accuracy": 81,
+    "post_validation": 93,
+    "human_reviewed": 97,
+    "intervention_rate": 11,
+    "verification_lift": 16,
+    "apps_analyzed": 100,
+    "sources_verified": 342,
+    "human_reviews_required": 11,
+    "estimated_hours_saved": 240
+  },
+  "accuracy_by_category": [
+    {
+      "name": "CRM",
+      "initial": 75,
+      "final": 96
+    },
+    {
+      "name": "Support",
+      "initial": 82,
+      "final": 98
+    },
+    {
+      "name": "Ecommerce",
+      "initial": 80,
+      "final": 95
+    },
+    {
+      "name": "Finance",
+      "initial": 65,
+      "final": 94
+    },
+    {
+      "name": "AI Tools",
+      "initial": 88,
+      "final": 99
+    }
+  ],
+  "limitations": [
+    {
+      "issue": "Enterprise-gated APIs",
+      "impact": "Agents are completely blocked without human sales calls or partner agreements."
+    },
+    {
+      "issue": "Missing Documentation",
+      "impact": "Agents hallucinate endpoints when OpenAPI specs are absent, driving false positives."
+    },
+    {
+      "issue": "Ambiguous Auth Methods",
+      "impact": "Legacy systems mixing API keys and basic auth caused 30% of initial validation errors."
+    },
+    {
+      "issue": "Inconsistent Portals",
+      "impact": "Discovery agents failed on 8% of sites due to nested IFrames in developer portals."
+    },
+    {
+      "issue": "MCP Discovery",
+      "impact": "Because MCP is relatively new, many platforms have community servers that agents cannot definitively verify via official docs."
+    },
+    {
+      "issue": "Human Review Bottlenecks",
+      "impact": "While the intervention rate is only 11%, evaluating complex SOAP endpoints manually still requires senior engineering time."
+    }
+  ],
+  "agent_walkthrough": {
+    "app_name": "GitHub",
+    "steps": [
+      {
+        "agent": "Discovery Agent",
+        "action": "Found developer.github.com, docs.github.com, api.github.com"
+      },
+      {
+        "agent": "Research Agent",
+        "action": "Extracted REST & GraphQL availability, OAuth App flows"
+      },
+      {
+        "agent": "Validator",
+        "action": "Cross-referenced endpoints against live schema (Confidence: 98%)"
+      },
+      {
+        "agent": "Contradiction Detector",
+        "action": "Resolved PAT vs OAuth discrepancy in legacy docs"
+      },
+      {
+        "agent": "Scoring",
+        "action": "Calculated Readiness Score: 98/100"
+      },
+      {
+        "agent": "Final Verdict",
+        "action": "Immediately Integratable"
+      }
+    ]
+  }
+}
