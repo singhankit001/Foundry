@@ -1,80 +1,123 @@
-# Foundry: Agent Readiness Intelligence Platform
+<div align="center">
+  <img src="frontend/public/dashboard_hero.png" alt="Foundry Dashboard Hero" />
 
-![Foundry Dashboard Hero](frontend/public/dashboard_hero.png)
+  <h1>Foundry: Agent Readiness Intelligence</h1>
+  <p>
+    <strong>An end-to-end multi-agent research platform for evaluating software agent integration readiness.</strong>
+  </p>
 
-**Foundry** is an end-to-end multi-agent research and intelligence platform designed to autonomously evaluate software applications for their readiness to be integrated with AI agents via the Composio SDK and Model Context Protocol (MCP).
+  <p>
+    <img src="https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Python-3.11+-blue?style=flat-square&logo=python" alt="Python" />
+    <img src="https://img.shields.io/badge/Architecture-Multi--Agent-purple?style=flat-square" alt="Multi-Agent" />
+    <img src="https://img.shields.io/badge/Integration-Composio_SDK-orange?style=flat-square" alt="Composio" />
+  </p>
+</div>
 
-## 1. The Problem
+<br />
+
+## ⚡ The Problem
+
 Product Operations teams at leading AI organizations need to prioritize the integration roadmap based on objective, quantifiable data. Manually reviewing 100+ API docs, authentication portals, and pricing pages is incredibly tedious, prone to human error, and fails to scale with the rapidly changing SaaS ecosystem. 
 
-## 2. Why Existing Research Doesn't Scale
-Basic web scrapers fail because they cannot understand context (e.g. distinguishing between a legacy SOAP endpoint and a modern REST/OAuth flow). While simple LLM prompts can extract data, they suffer from hallucination and lack the rigorous cross-referencing required for production-grade operational intelligence. Decisions based on unverified LLM output lead to engineering friction and wasted sprints.
+> Basic web scrapers fail because they cannot understand context (e.g., distinguishing between a legacy SOAP endpoint and a modern REST/OAuth flow). Decisions based on unverified LLM output lead to engineering friction and wasted sprints.
 
-## 3. Foundry Overview
-Foundry solves this through a rigorous **Multi-Agent Pipeline** coupled with a mathematical **Verification System**. It evaluates applications on metrics critical to Agent integration (API architecture, Authentication friction, MCP presence, and Self-serve sandbox availability), outputting an **Agent Readiness Score™** for each platform. 
+---
+
+## 🚀 Foundry Overview
+
+Foundry solves this through a rigorous **Multi-Agent Pipeline** coupled with a mathematical **Verification System**. It evaluates applications on metrics critical to Agent integration, outputting an actionable **Agent Readiness Score™** for each platform.
 
 The resulting dataset is presented in a premium, Next.js 15 powered interactive intelligence dashboard, designed for executive consumption and immediate operational action.
 
-## 4. Agent Architecture
-We maintain strict separation of concerns for a production-grade environment. The backend consists of a 7-agent pipeline written in Python:
-- **Agent 0 (Research Orchestrator)**: Manages queues, handles rate-limiting, controls retries, and routes tasks.
-- **Agent 1 (Discovery Agent)**: Navigates the web to locate official API docs, authentication portals, and pricing.
-- **Agent 2 (Research Agent)**: Extracts technical specs (Auth Type, API Surface) and enforces strict citation requirements (source URLs).
-- **Agent 3 (Evidence Validator)**: Cross-references claims against the provided source URLs to generate an initial confidence score.
-- **Agent 4 (Contradiction Detector)**: Flags conflicting information across sources (e.g., legacy docs vs modern OpenAPI specs).
-- **Agent 5 (Human Review Queue)**: Evaluates the final confidence score. Anything below 85% is flagged for manual Product Ops review.
-- **Agent 6 (Pattern Mining Agent)**: Aggregates the verified dataset to identify strategic targets, easy wins, and integration blockers.
+---
 
-## 5. Verification Methodology
+## 🧠 Agent Architecture
+
+We maintain strict separation of concerns for a production-grade environment. The backend consists of a **7-agent pipeline** written in Python:
+
+1. 🎛️ **Agent 0 (Research Orchestrator):** Manages queues, handles rate-limiting, controls retries, and routes tasks.
+2. 🌐 **Agent 1 (Discovery Agent):** Navigates the web to locate official API docs, authentication portals, and pricing.
+3. 🕵️ **Agent 2 (Research Agent):** Extracts technical specs (Auth Type, API Surface) and enforces strict citation requirements.
+4. ⚖️ **Agent 3 (Evidence Validator):** Cross-references claims against the provided source URLs to generate an initial confidence score.
+5. 🛡️ **Agent 4 (Contradiction Detector):** Flags conflicting information across sources.
+6. 🧑‍💻 **Agent 5 (Human Review Queue):** Evaluates the final confidence score. Anything below 85% is flagged for manual Product Ops review.
+7. 📊 **Agent 6 (Pattern Mining Agent):** Aggregates the verified dataset to identify strategic targets, easy wins, and integration blockers.
+
+---
+
+## 📈 Verification Methodology
+
 To prove the trustworthiness of the data, Foundry employs stratified sampling across 10 distinct industry categories. We track the **Verification Lift**—the mathematical improvement in data reliability:
-- **Initial Accuracy (Raw Agent Output)**: 81%
-- **Post-Validation Accuracy**: 93%
-- **Human Reviewed Accuracy (Final)**: 97%
-- **Total Verification Lift**: +16%
 
-![Foundry Methodology](frontend/public/dashboard_methodology.png)
+| Stage | Accuracy | Description |
+| :--- | :--- | :--- |
+| **Initial Agent Output** | 81% | Raw extraction by the Research Agent. |
+| **Post-Validation** | 93% | After Evidence Validator cross-references citations. |
+| **Human Reviewed** | 97% | Final accuracy after Product Ops audits low-confidence data. |
+| **Total Lift** | **+16%** | Overall mathematical improvement in data reliability. |
 
-## 6. Key Findings
+<br />
+
+<div align="center">
+  <img src="frontend/public/dashboard_methodology.png" alt="Foundry Methodology" />
+</div>
+
+<br />
+
+---
+
+## 💡 Key Findings
+
 - **72%** of analyzed platforms are immediately agent-toolkit ready.
 - **OAuth2** dominates as the primary authentication mechanism across top-tier platforms.
 - **MCP Adoption** is currently low but rapidly growing, representing a massive opportunity for early integration.
-- **API Surface**: Standard REST architectures account for the vast majority of integration targets, while GraphQL remains niche.
+- **API Surface:** Standard REST architectures account for the vast majority of integration targets.
 
-## 7. Strategic Recommendations
-Based on the Agent Readiness Scores, targets are classified into actionable cohorts for the partnerships and engineering teams:
-- **Easy Wins (Score > 80)**: GitHub, Slack, Notion, Airtable. Characterized by public APIs, excellent docs, and self-serve OAuth2 onboarding.
-- **Strategic Targets (Score 50-79)**: Salesforce, Zendesk, HubSpot. Characterized by high market demand but varying levels of API or Auth complexity.
-- **Outreach Required (Score < 50)**: PitchBook, DealCloud, enterprise Fintech. Characterized by partner-gated APIs and strict enterprise approval workflows where agents fail without human intervention.
+---
 
-## 8. Quick Start: How to Run the Project
+## 🎯 Strategic Recommendations
 
-The project is split into two parts: a Python backend for the agent pipeline and data generation, and a Next.js frontend for the intelligence dashboard.
+Targets are classified into actionable cohorts for Partnerships and Engineering teams:
 
-### Step 1: Run the Backend (Data Generation & Agents)
+* 🟢 **Easy Wins (Score > 80):** GitHub, Slack, Notion. (Public APIs, excellent docs, self-serve OAuth2).
+* 🟡 **Strategic Targets (Score 50-79):** Salesforce, Zendesk. (High market demand, varying API/Auth complexity).
+* 🔴 **Outreach Required (Score < 50):** Enterprise Fintech. (Partner-gated APIs, agents fail without human intervention).
+
+---
+
+## 💻 Quick Start: How to Run the Project
+
+The project is split into two parts: a Python backend (data generation & agents) and a Next.js frontend (dashboard).
+
+### Step 1: Backend (Agents & Data)
 ```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# Run the pipeline to generate stratified data (outputs to SQLite and JSON)
+# Run pipeline to generate stratified data
 python seed_data_generator.py
 
 # Execute the agent orchestrator mock
 python agents/pipeline.py
 ```
 
-### Step 2: Run the Frontend (Intelligence Dashboard)
+### Step 2: Frontend (Intelligence Dashboard)
 ```bash
 cd frontend
 npm install
 
 # Start the development server
 npm run dev
-# The Foundry dashboard will be available at http://localhost:3000
 ```
+> The Foundry dashboard will be available at [http://localhost:3000](http://localhost:3000)
 
-## 9. Future Improvements
-- **Distributed Orchestration**: Transition Agent 0 from `asyncio` to Celery/Redis for highly distributed processing across thousands of domains.
-- **Live Database Connection**: Migrate the Next.js app to read directly from a Postgres database via Prisma, replacing the static JSON export to enable real-time tracking of agent progress.
-- **Expanded Agent Actions**: Enable agents to actually attempt sandbox account creation via browser-use to verify self-serve claims dynamically.
+---
+
+## 🔮 Future Improvements
+
+- **Distributed Orchestration**: Transition Agent 0 to Celery/Redis for highly distributed processing across thousands of domains.
+- **Live Database Connection**: Migrate the Next.js app to read directly from Postgres via Prisma.
+- **Expanded Agent Actions**: Enable agents to actually attempt sandbox account creation via browser-use.
